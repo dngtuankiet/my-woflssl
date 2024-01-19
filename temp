@@ -1,0 +1,43 @@
+#!/bin/bash
+make clean
+
+./configure CFLAGS="-DHAVE_ECC_KOBLITZ -DHAVE_ECC -DHAVE_COMP_KEY -DWOLFSSL_PUBLIC_MP -DWC_MP_TO_RADIX" \
+--prefix=/home/tuankiet/Documents/wolfssl-build-linux/ \
+--enable-curve25519 --enable-ed25519 --enable-static \
+--enable-opensslextra --disable-filesystem --enable-singlethreaded --disable-shared \
+--enable-ecc --enable-ecccustcurves \
+--enable-staticmemory --enable-fastmath
+
+
+# ./configure CFLAGS="-I/home/tuankiet/Workspace/iot-security/basic/riscv-secure-iot/utils/ -DWOLFSSL_USER_SETTINGS" \
+# --prefix=/home/tuankiet/Documents/wolfssl-build-linux/ \
+# --enable-curve25519 --enable-ed25519 --enable-static \
+# --enable-opensslextra --disable-filesystem --enable-singlethreaded --disable-shared \
+# --enable-ecc --enable-ecccustcurves \
+# --enable-staticmemory --enable-fastmath
+
+
+
+# ./configure --host=riscv64 \
+# --prefix=/home/tuankiet/Documents/wolfssl-build-rv64gc-elf/ \
+# CC=riscv64-unknown-elf-gcc \
+# AR=riscv64-unknown-elf-ar \
+# AS=riscv64-unknown-elf-as \
+# RANLIB=riscv64-unknown-elf-ranlib \
+# LD=riscv64-unknown-elf-ld \
+# CXX=riscv64-unknown-elf-g++ \
+# CFLAGS="-march=rv32imac -mabi=ilp32 -O2 -nostdlib --specs=nano.specs -g -I$RISCV/riscv64-unknown-elf/include -I/home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include -DWOLFSSL_USER_SETTINGS" \
+# LDFLAGS="-L$RISCV/riscv64-unknown-elf/lib" \
+# --disable-filesystem --enable-singlethreaded --disable-shared \
+# --enable-static \
+# --enable-ecc --enable-ecccustcurves --enable-staticmemory --enable-fastmath 
+
+#Note:
+#DHAVE_COMP_KEY: allow using point export and import
+#DWOLFSSL_PUBLIC_MP: allow using MP_API
+
+# ./configure CFLAGS="-DHAVE_ECC_KOBLITZ" \
+# --prefix=/home/tuankiet/Documents/wolfssl-build-linux/ \
+# --enable-curve25519 --enable-ed25519 --enable-static \
+# --enable-opensslextra --disable-filesystem --enable-singlethreaded \
+# --enable-opensslall --enable-ecc --enable-ecccustcurves

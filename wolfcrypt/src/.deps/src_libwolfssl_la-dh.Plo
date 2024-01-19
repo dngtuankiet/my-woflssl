@@ -1,0 +1,14 @@
+wolfcrypt/src/src_libwolfssl_la-dh.lo: wolfcrypt/src/dh.c .build_params \
+ config.h wolfssl/wolfcrypt/settings.h \
+ /home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h \
+ wolfssl/wolfcrypt/visibility.h
+
+.build_params:
+
+config.h:
+
+wolfssl/wolfcrypt/settings.h:
+
+/home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h:
+
+wolfssl/wolfcrypt/visibility.h:

@@ -1,0 +1,147 @@
+wolfcrypt/src/src_libwolfssl_la-logging.lo: wolfcrypt/src/logging.c \
+ .build_params config.h wolfssl/wolfcrypt/settings.h \
+ /home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h \
+ wolfssl/wolfcrypt/visibility.h wolfssl/wolfcrypt/logging.h \
+ wolfssl/wolfcrypt/types.h wolfssl/wolfcrypt/wc_port.h \
+ /home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stdint.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdint.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_default_types.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/features.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_newlib_version.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_intsup.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_stdint.h \
+ wolfssl/wolfcrypt/memory.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdlib.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/ieeefp.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_ansi.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/newlib-nano/newlib.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/config.h \
+ /home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stddef.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/reent.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_ansi.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_types.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_types.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/lock.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/cdefs.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/stdlib.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/alloca.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/string.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/xlocale.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/strings.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/string.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdio.h \
+ /home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stdarg.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/types.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/endian.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_endian.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/select.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_sigset.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_timeval.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/timespec.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_timespec.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_pthreadtypes.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/sched.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/types.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/stdio.h \
+ /home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/ctype.h \
+ wolfssl/wolfcrypt/error-crypt.h
+
+.build_params:
+
+config.h:
+
+wolfssl/wolfcrypt/settings.h:
+
+/home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h:
+
+wolfssl/wolfcrypt/visibility.h:
+
+wolfssl/wolfcrypt/logging.h:
+
+wolfssl/wolfcrypt/types.h:
+
+wolfssl/wolfcrypt/wc_port.h:
+
+/home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stdint.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdint.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_default_types.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/features.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_newlib_version.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_intsup.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_stdint.h:
+
+wolfssl/wolfcrypt/memory.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdlib.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/ieeefp.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_ansi.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/newlib-nano/newlib.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/config.h:
+
+/home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stddef.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/reent.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/_ansi.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_types.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_types.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/lock.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/cdefs.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/stdlib.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/alloca.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/string.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/xlocale.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/strings.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/string.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/stdio.h:
+
+/home/tuankiet/tools/build-rv64gc/lib/gcc/riscv64-unknown-elf/8.2.0/include/stdarg.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/types.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/endian.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/_endian.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/select.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_sigset.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_timeval.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/timespec.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_timespec.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/_pthreadtypes.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/sched.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/machine/types.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/sys/stdio.h:
+
+/home/tuankiet/tools/build-rv64gc/riscv64-unknown-elf/include/ctype.h:
+
+wolfssl/wolfcrypt/error-crypt.h:

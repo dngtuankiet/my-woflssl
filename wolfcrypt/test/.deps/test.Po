@@ -1,0 +1,14 @@
+wolfcrypt/test/test.o: wolfcrypt/test/test.c .build_params config.h \
+ wolfssl/wolfcrypt/settings.h \
+ /home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h \
+ wolfssl/wolfcrypt/visibility.h
+
+.build_params:
+
+config.h:
+
+wolfssl/wolfcrypt/settings.h:
+
+/home/tuankiet/Workspace/RISCVConsole/software/RISCVConsoleCode/include/user_settings.h:
+
+wolfssl/wolfcrypt/visibility.h:
